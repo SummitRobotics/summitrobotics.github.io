@@ -51,7 +51,8 @@ function addTimer(table, idx, name, data) {
     ct.setAttribute("type", "hidden");
     ct.setAttribute("id", "cycletime_" + data.code);
     if (enableGoogleSheets && data.hasOwnProperty('gsCol')) {
-      ct.setAttribute("name", data.gsCol);
+      // ct.setAttribute("name", data.gsCol);
+      ct.setAttribute("name", data.code);
     } else {
       ct.setAttribute("name", data.code);
     }
@@ -83,7 +84,9 @@ function addTimer(table, idx, name, data) {
   inp.setAttribute("type", "text");
   if (data.type != 'cycle') {
     if (enableGoogleSheets && data.hasOwnProperty('gsCol')) {
-      inp.setAttribute("name", data.gsCol);
+      // inp.setAttribute("name", data.gsCol);
+      inp.setAttribute("name", data.code);
+
     } else {
       inp.setAttribute("name", data.code);
     }
@@ -175,7 +178,8 @@ function addCounter(table, idx, name, data) {
   inp.setAttribute("id", "input_" + data.code);
   inp.setAttribute("type", "text");
   if (enableGoogleSheets && data.hasOwnProperty('gsCol')) {
-    inp.setAttribute("name", data.gsCol);
+    // inp.setAttribute("name", data.gsCol);
+    inp.setAttribute("name", data.code);
   } else {
     inp.setAttribute("name", data.code);
   }
@@ -302,7 +306,8 @@ function addClickableImage(table, idx, name, data) {
   inp = document.createElement('input');
   inp.setAttribute("hidden", "");
   if (enableGoogleSheets && data.hasOwnProperty('gsCol')) {
-    inp.setAttribute("name", data.gsCol);
+    // inp.setAttribute("name", data.gsCol);
+    inp.setAttribute("name", data.code);
   } else {
     inp.setAttribute("name", data.code);
   }
@@ -406,7 +411,8 @@ function addText(table, idx, name, data) {
   inp.setAttribute("id", "input_" + data.code);
   inp.setAttribute("type", "text");
   if (enableGoogleSheets && data.hasOwnProperty('gsCol')) {
-    inp.setAttribute("name", data.gsCol);
+    // inp.setAttribute("name", data.gsCol);
+    inp.setAttribute("name", data.code);
   } else {
     inp.setAttribute("name", data.code);
   }
@@ -459,7 +465,8 @@ function addNumber(table, idx, name, data) {
   inp.setAttribute("id", "input_" + data.code);
   inp.setAttribute("type", "number");
   if (enableGoogleSheets && data.hasOwnProperty('gsCol')) {
-    inp.setAttribute("name", data.gsCol);
+    // inp.setAttribute("name", data.gsCol);
+    inp.setAttribute("name", data.code);
   } else {
     inp.setAttribute("name", data.code);
   }
@@ -534,7 +541,8 @@ function addRadio(table, idx, name, data) {
       inp.setAttribute("id", "input_" + data.code + "_" + c);
       inp.setAttribute("type", "radio");
       if (enableGoogleSheets && data.hasOwnProperty('gsCol')) {
-        inp.setAttribute("name", data.gsCol);
+        // inp.setAttribute("name", data.gsCol);
+        inp.setAttribute("name", data.code);
       } else {
         inp.setAttribute("name", data.code);
       }
@@ -581,7 +589,8 @@ function addCheckbox(table, idx, name, data) {
   inp.setAttribute("id", "input_" + data.code);
   inp.setAttribute("type", "checkbox");
   if (enableGoogleSheets && data.hasOwnProperty('gsCol')) {
-    inp.setAttribute("name", data.gsCol);
+    // inp.setAttribute("name", data.gsCol);
+    inp.setAttribute("name", data.code);
   } else {
     inp.setAttribute("name", data.code);
   }
