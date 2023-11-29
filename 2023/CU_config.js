@@ -1,6 +1,6 @@
 var config_data = `
 {
-  "dataFormat": "tsv",
+  "dataFormat": "kvs",
   "enable_google_sheets": "true",
   "title": "Scouting PASS 2023",
   "page_title": "Charged Up",
