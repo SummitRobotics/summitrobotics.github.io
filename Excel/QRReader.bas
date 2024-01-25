@@ -40,7 +40,7 @@ Sub dbm(inp As String)
 End Sub
 
 Public Function ArrayLen(arr As Variant) As Integer
-    ArrayLen = UBound(arr) - LBound(arr) + 1
+    ArrayLen = UBound(arr) - LBound(arr) 
 End Function
 
 Sub saveData(inp As String)
