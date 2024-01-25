@@ -1406,10 +1406,10 @@ window.onload = function () {
       getTeams(ec);
       getSchedule(ec);
     }
-    this.drawFields();
-    if (enableGoogleSheets) {
-      console.log("Enabling Google Sheets.");
-      setUpGoogleSheets();
+    // this.drawFields();
+    // if (enableGoogleSheets) {
+    //   console.log("Enabling Google Sheets.");
+    //   setUpGoogleSheets();
     }
   }
 };
