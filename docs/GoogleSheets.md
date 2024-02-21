@@ -152,7 +152,7 @@ function doPost (e) {
   Sheets which column to put the data in.
     * For example, the first entry in our configuraiton is Scouter Initials, the new entry with the gsCol tag would look like this:
 ```json
-            { "name": "Scouter Initials",
+            { "name": "Name",
               "gsCol": "scouter",
               "code": "s",
               "type": "scouter",

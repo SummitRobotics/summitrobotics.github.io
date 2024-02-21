@@ -141,12 +141,28 @@ h2{
     font: roboto;
 }
 
+h3{
+    font-family: Alexis;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    font-style: italic;
+}
+
 .half-button-r{
     flex-grow: 1;
     height: 100%;
     width: 48%;
     margin: 1vw;
     font: roboto;
+}
+
+h4{
+    font-family: Alexis;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    font-style: italic;
 }
 
 .half-button-container{
