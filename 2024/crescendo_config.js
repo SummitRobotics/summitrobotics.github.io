@@ -144,6 +144,10 @@ var config_data = `
       "type": "text",
       "size": 30,
       "maxSize": 110
+    },
+    { "name": "Played defense?",
+      "code": "dfPp",
+      "type": "bool"
     }
   ]
 }`;
