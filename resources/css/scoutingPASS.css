@@ -172,7 +172,7 @@ h4{
 #nextButton1, #nextButton2, #nextButton9, #nextButton10, .clearForm, .submitForm, #displayButton, #copyButton {
     font-family: Alexis;
     padding: 10px;
-    background-color: red;
+    background-color: rgb(151, 199, 240);
     text-decoration: none;
     display: inline-block;
 }

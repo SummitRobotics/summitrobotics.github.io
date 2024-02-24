@@ -473,6 +473,8 @@ Sub ClearAllData()
 
   ' Clear all contents, formats, and comments
   ws.Cells.ClearContents
+ 'ws.Cells.ClearFormats
+ 'wsCells.ClearComments
 End Sub
 
 Sub saveToCSV()

@@ -6,9 +6,9 @@ var config_data = `
   "checkboxAs": "10",
   "prematch": [
     { "name": "Name",
-      "code": "N",
-      "type": "Scouter Name",
-      "size": 5,
+      "code": "s",
+      "type": "scouter",
+      "size": 10,
       "maxSize": 10,
       "required": "true"
     },
@@ -16,7 +16,8 @@ var config_data = `
       "code": "e",
       "type": "event",
       "defaultValue": "2023tnkn",
-      "required": "true"
+      "required": "true",
+      "writable": "false"
     },
     { "name": "Match Level",
       "code": "l",
@@ -45,7 +46,7 @@ var config_data = `
         "r2": "Red-2",
         "b2": "Blue-2<br>",
         "r3": "Red-3",
-        "b3": "Blue-3<br>"
+        "b3": "Blue-3"
       },
       "required":"true"
     },
