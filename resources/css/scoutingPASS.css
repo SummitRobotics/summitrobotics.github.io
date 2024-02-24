@@ -19,7 +19,7 @@ html, body{
 
     font-family : -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
     text-align: center;
-    color: white;
+    color: red;
     font-size: 13px;
     font-style: bold;
     letter-spacing: 1px;
@@ -29,7 +29,7 @@ html, body{
 
 #auton_table, #endgame_table, #teleop_table {
     font-family : -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
-    color: black;
+    color: black; 
     font-size: 13px;
     font-style: bold;
     letter-spacing: 1px;
@@ -172,7 +172,7 @@ h4{
 #nextButton1, #nextButton2, #nextButton9, #nextButton10, .clearForm, .submitForm, #displayButton, #copyButton {
     font-family: Alexis;
     padding: 10px;
-    background-color: rgb(151, 199, 240);
+    background-color: red;
     text-decoration: none;
     display: inline-block;
 }
@@ -236,7 +236,7 @@ td {
 input {
     font-size: 16px;
     font: roboto;
-    color: black;
+    color:black;
     background-color: white;
 }
 

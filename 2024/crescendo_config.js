@@ -6,10 +6,10 @@ var config_data = `
   "checkboxAs": "10",
   "prematch": [
     { "name": "Name",
-      "code": "s",
-      "type": "scouter",
+      "code": "N",
+      "type": "Scouter Name",
       "size": 5,
-      "maxSize": 5,
+      "maxSize": 10,
       "required": "true"
     },
     { "name": "Event",
@@ -45,7 +45,7 @@ var config_data = `
         "r2": "Red-2",
         "b2": "Blue-2<br>",
         "r3": "Red-3",
-        "b3": "Blue-3"
+        "b3": "Blue-3<br>"
       },
       "required":"true"
     },
@@ -146,7 +146,7 @@ var config_data = `
       "maxSize": 110
     },
     { "name": "Played defense?",
-      "code": "dfPp",
+      "code": "df",
       "type": "bool"
     }
   ]
