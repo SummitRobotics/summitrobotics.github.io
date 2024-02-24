@@ -447,3 +447,30 @@ Private Function getAvgCycleTime(ByRef myCell As Range) As Double
     End If
     
 End Function
+
+Sub ClearAllData()
+
+  ' Get the active worksheet
+  Dim ws As Worksheet
+  Set ws = ActiveSheet
+  
+  ' Prompt for confirmation
+  If MsgBox("Are you sure you want to clear all data from '" & ws.Name & "'?", vbYesNo) = vbNo Then
+    Exit Sub ' Exit the macro if user clicks "No"
+  End If
+  
+  ' Prompt for confirmation
+  If MsgBox("Are you sure you want to clear all data from '" & ws.Name & "'?", vbYesNo) = vbNo Then
+    Exit Sub ' Exit the macro if user clicks "No"
+  End If
+  
+  ' Prompt for confirmation
+  If MsgBox("Are you sure you want to clear all data from(Last time i promise!) '" & ws.Name & "'?", vbYesNo) = vbNo Then
+    Exit Sub ' Exit the macro if user clicks "No"
+  End If
+  
+  
+
+  ' Clear all contents, formats, and comments
+  ws.Cells.ClearContents
+End Sub
