@@ -474,3 +474,45 @@ Sub ClearAllData()
   ' Clear all contents, formats, and comments
   ws.Cells.ClearContents
 End Sub
+
+Sub saveToCSV()
+
+  ' Retrieve data from the "ScoutingData" table
+  Dim table As ListObject
+  Dim ws As Worksheet
+  Set ws = ActiveSheet
+  Set table = ws.ListObjects("ScoutingData") ' Assuming the table exists
+
+  ' Create file system object
+  Dim fso As Object
+  Set fso = CreateObject("Scripting.FileSystemObject")
+
+  ' Define filename and path (replace with your desired location)
+  Dim filePath As String
+  filePath = "C:\ScoutingData.csv" ' Adjust as needed
+
+  ' Create the CSV file
+  Dim file As Object
+  Set file = fso.CreateTextFile(filePath, True)
+
+  ' Write header row
+  For i = 1 To table.ListColumns.Count
+    file.Write table.HeaderRowRange(i) & ","
+  Next i
+  file.Write vbCrLf ' Add a new line
+
+  ' Write data rows
+  For Each row In table.ListRows
+    For i = 1 To table.ListColumns.Count
+      file.Write row.Range(i) & ","
+    Next i
+    file.Write vbCrLf ' Add a new line
+  Next row
+
+  ' Close the file
+  file.Close
+
+  ' Optional message box confirmation
+  MsgBox "Data exported successfully to " & filePath, vbInformation
+
+End Sub
