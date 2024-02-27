@@ -1,7 +1,7 @@
 var config_data = `
 {
   "dataFormat": "tsv",
-  "title": "Scouting PASS 2024",
+  "title": "Summit Robotics Scouting PASS 2024",
   "page_title": "Crescendo",
   "checkboxAs": "10",
   "prematch": [
@@ -13,13 +13,14 @@ var config_data = `
       "required": "true"
     },
     { "name": "Event",
-      "code": "e",
-      "type": "event",
-      "defaultValue": "2023tnkn",
-      "required": "true",
-      "writable": "false"
+     "code": "e",
+     "type": "event",
+     "defaultValue": "2023tnkn",
+     "required": "true",
+     "writable": "false",
+     "isReadOnly": "true"
     },
-    { "name": "Match Level",
+     { "name": "Match Level",
       "code": "l",
       "type": "level",
       "choices": {
@@ -64,8 +65,8 @@ var config_data = `
       "allowableResponses": "1 12 13 24 25 36 37 48 49 60 61 72",
       "shape": "circle 5 black red true"
     },
-    { "name": "If you are scouting pit refer to this: ",
-      "shape": "circle 5 black red true"
+    { "name": "pit scouting: https://summitrobotics.github.io/pit.html",
+    "shape": "circle 5 black red true"
     }
   ],
   "auton": [
