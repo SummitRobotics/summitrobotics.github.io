@@ -1,6 +1,7 @@
 var config_data = `
 {
-  "title": "Summit Robotics Scouting Pit PASS 2024",
+  "dataFormat": "tsv",
+  "title": "Scouting PASS 2024",
   "page_title": "Crescendo",
   "pitConfig": "true",
   "prematch": [
