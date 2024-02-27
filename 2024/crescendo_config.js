@@ -64,9 +64,6 @@ var config_data = `
       "clickRestriction": "one",
       "allowableResponses": "1 12 13 24 25 36 37 48 49 60 61 72",
       "shape": "circle 5 black red true"
-    },
-    { "name": "pit scouting: https://summitrobotics.github.io/pit.html",
-    "shape": "circle 5 black red true"
     }
   ],
   "auton": [
