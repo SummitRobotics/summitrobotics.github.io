@@ -1,10 +1,6 @@
 var config_data = `
 {
-<<<<<<< HEAD
   "title": "Summit Robotics Scouting PitPASS 2024",
-=======
-  "title": "Summit Robotics Scouting PASS 2024",
->>>>>>> a848e5da5783d66617cba33a19556ffddd0568aa
   "page_title": "Crescendo",
   "pitConfig": "true",
   "prematch": [
@@ -89,6 +85,10 @@ var config_data = `
       "type": "text",
       "size": 20,
       "maxSize": 250
+    },
+    { "name": "Played defense?",
+      "code": "df",
+      "type": "bool"
     }
   ],
   "auton": [
