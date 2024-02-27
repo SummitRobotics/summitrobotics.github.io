@@ -56,12 +56,15 @@ var config_data = `
       "min": 1,
       "max": 99999
     },
-    { "name": "Auto Start Position",
+    { "name": "Auto Start Position(This is important)",
       "code": "as",
       "type": "clickable_image",
       "filename": "2024/field_image.png",
       "clickRestriction": "one",
       "allowableResponses": "1 12 13 24 25 36 37 48 49 60 61 72",
+      "shape": "circle 5 black red true"
+    },
+    { "name": "If you are scouting pit refer to this: ",
       "shape": "circle 5 black red true"
     }
   ],
