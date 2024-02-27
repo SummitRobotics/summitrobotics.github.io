@@ -49,7 +49,7 @@
 <div id="live-demo"></div>
 
 ## Live Demo
-This repository is hosted on GitHub Pages.  You can view a live version of it here: https://PWNAGERobotics.github.io/ScoutingPASS.  (You can host your ScoutingPASS application on GitHub Pages as well.)
+This repository is hosted on GitHub Pages.  You can view a live version of it here: [https://PWNAGERobotics.github.io/ScoutingPASS](https://summitrobotics.github.io/).  (You can host your ScoutingPASS application on GitHub Pages as well.)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 <div id="description"></div>
@@ -108,7 +108,7 @@ Note: For this to work, the schedule has to be posted to The Blue Alliance.  Tha
 
 ScountingPASS now supports Pit Scouting
 
-To access the pit scouting page, add '/pit.html' to the end of your URL.  (i.e. http://pwnagerobotics.github.io/ScoutingPASS/pit.html)
+To access the pit scouting page, add '/pit.html' to the end of your URL.  (i.e. [http://pwnagerobotics.github.io/ScoutingPASS/pit.html](https://summitrobotics.github.io/pit.html))
 
 It works almost exactly like the main scouting pages, except there is only one page of input.   Once your scouters have filled out the information, swipe left to display the QR code.   That QR code can be scanned to push the data to Excel.
 
